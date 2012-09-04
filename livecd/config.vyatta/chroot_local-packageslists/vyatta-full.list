@@ -1,8 +1,6 @@
 conntrack
 conntrackd
 conntrack-helpers
-grub-common
-grub-pc
 initramfs-tools
 iproute
 ipset
@@ -86,3 +84,5 @@ vyatta-lldp
 vyatta-zone
 vyatta-config-mgmt
 barnyard2
+libnet0
+libsablot0

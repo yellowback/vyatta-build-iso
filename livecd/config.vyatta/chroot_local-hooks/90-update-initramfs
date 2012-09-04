@@ -1,0 +1,4 @@
+#! /bin/sh 
+
+# Force the creation of initramfs in the chroot 
+update-initramfs -c -k 3.0.32-1-obsax3-vyatta 

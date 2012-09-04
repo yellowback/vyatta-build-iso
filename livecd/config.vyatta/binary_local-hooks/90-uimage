@@ -1,0 +1,4 @@
+#!/bin/sh
+gzip -9 < binary/live/vmlinuz-3.0.32-1-obsax3-vyatta > binary/live/vmlinuz-3.0.32-1-obsax3-vyatta.gz
+mkimage -n "Vyatta Linux 3.0.32" -A arm -O linux -T multi -C gzip -a 0x8000 -e 0x8000 -d binary/live/vmlinuz-3.0.32-1-obsax3-vyatta.gz:binary/live/initrd.img-3.0.32-1-obsax3-vyatta binary/uImage
+rm -f binary/live/vmlinuz-3.0.32-1-obsax3-vyatta.gz

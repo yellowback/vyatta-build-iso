@@ -1,0 +1,3 @@
+#!/bin/sh
+update-rc.d pshd start 01 2 . stop 01 0 6 .
+update-rc.d runled start 01 2 . stop 01 0 6 .
