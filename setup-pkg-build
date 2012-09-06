@@ -1,6 +1,6 @@
 aptitude update
 aptitude -f -y install asciidoc build-essential \
-        bison flex docbook-utils gcc-4.2 git-buildpackage groff gs \
+        bison flex docbook-utils gcc-4.4 git-buildpackage groff gs \
 	gs-gpl groff imagemagick iptables-dev libnet0-dev libpam0g-dev \
  	libpcap0.8-dev libpcre3-dev libprelude-dev \
 	libreadline-dev libsablot0-dev libtool lintian manpages-dev \
@@ -14,4 +14,9 @@ aptitude -f -y install asciidoc build-essential \
 	libpq-dev libpq5 mysql-common git2cl hardening-wrapper \
 	libwrap0-dev libnetfilter-queue-dev libglib2.0-dev libedit-dev \
         libnfnetlink-dev libnetfilter-conntrack-dev po4a autogen \
-	libsensors4-dev libpci-dev libproc-dev libdumbnet-dev
+	libsensors4-dev libpci-dev libproc-dev libdumbnet-dev \
+	python-central indent parted dosfstools ntp fakechroot \
+	uboot-mkimage libattr1-dev automake libsensors4-dev \
+	libboost-filesystem1.42-dev libapt-pkg-dev live-helper ucf \
+	genisoimage libgmp3-dev libcurl4-openssl-dev libopensc2-dev \
+	libldap2-dev libxml2-dev
